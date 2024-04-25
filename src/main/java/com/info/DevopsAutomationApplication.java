@@ -13,6 +13,12 @@ public class DevopsAutomationApplication {
 	public String message() {
 		return "Welcome to DevopsAutomationApplication demo!";
 	}
+	
+	@GetMapping("/hello")
+	public String getMessage() {
+		return "Hello DevopsAutomationApplication demo!";
+	}
+
 
 
 	public static void main(String[] args) {
