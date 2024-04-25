@@ -49,6 +49,7 @@
 				</configuration>
 			</plugin>
 		</plugins>
+		<finalName>devops-automation</finalName>
 	</build>
 
 </project>
